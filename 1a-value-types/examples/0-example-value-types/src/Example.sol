@@ -12,14 +12,14 @@ contract Example {
     int8 c = 127; // -128 -> 127
     int256 d = -55; // alias: int256
 
-    bool myCondition = true;
+    bool myCondition = true; // boolean value
 
     enum Choice {
         Up,
         Down,
         Left,
         Right
-    }
+    } // enum type
 
     Choice choice = Choice.Up;
 }
